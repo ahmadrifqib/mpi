@@ -3,9 +3,9 @@
 	"version": "1.1",
 	"private": true,
 	"scripts": {
-		"dev": "node app.js",
+		"dev": "node server.js",
 		"build": "next build",
-		"start": "NODE_ENV=production node app.js"
+		"start": "NODE_ENV=production node server.js"
 	},
 	"dependencies": {
 		"next": "^12.1.4",
