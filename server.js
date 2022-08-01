@@ -40,3 +40,6 @@ app.prepare().then(() => {
 // 	"build": "next build",
 // 	"start": "NODE_ENV=production node server.js"
 // },
+
+// "eslint": "^8.13.0",
+// "eslint-config-next": "^12.1.4",

@@ -2,11 +2,14 @@ const Product = () => {
 	return (
 		<>
 			<div className="flex items-center justify-center w-auto h-auto tracking-wide">
-				<img
-					src="/images/product.jpeg"
-					className="object-cover object-bottom w-screen blur-sm h-60"
-					style={{ filter: "grayscale(20%)" }}
-				/>
+				<picture>
+					<source srcSet="/images/mpi-site.jpeg" type="image/jpeg" />
+					<img
+						src="/images/product.jpeg"
+						className="object-cover object-bottom w-screen blur-sm h-60"
+						style={{ filter: "grayscale(20%)" }}
+					/>
+				</picture>
 				<div className="absolute font-bold text-white underline text-7xl underline-offset-4 decoration-orange-500">
 					Produk
 				</div>

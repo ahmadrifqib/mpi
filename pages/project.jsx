@@ -4,11 +4,14 @@ const Project = () => {
 	return (
 		<>
 			<div className="flex items-center justify-center w-auto h-auto tracking-wide">
-				<img
-					src="/images/project/project-cover.jpeg"
-					className="object-cover object-center w-screen h-60 blur-sm"
-					style={{ filter: "grayscale(20%)" }}
-				/>
+				<picture>
+					<source srcSet="/images/mpi-site.jpeg" type="image/jpeg" />
+					<img
+						src="/images/project/project-cover.jpeg"
+						className="object-cover object-center w-screen h-60 blur-sm"
+						style={{ filter: "grayscale(20%)" }}
+					/>
+				</picture>
 				{/* <div className="object-cover object-center w-screen h-60 blur-sm" style={{ filter: "grayscale(20%)" }}>
 					<Images
 						src="/images/project/project-cover.jpeg"
@@ -27,10 +30,13 @@ const Project = () => {
 				<div className="py-20">
 					<div className="p-10 text-5xl font-bold text-center text-orange-500">Triangle Pase</div>
 					<div className="grid gap-4 mx-5 lg:mx-20 md:mx-10 lg:grid-cols-2">
-						<img
-							src="/images/project/triangle/1.jpeg"
-							className="object-cover object-center w-full p-4 bg-white hover:shadow-lg rounded-xl h-96"
-						/>
+						<picture>
+							<source srcSet="/images/mpi-site.jpeg" type="image/jpeg" />
+							<img
+								src="/images/project/triangle/1.jpeg"
+								className="object-cover object-center w-full p-4 bg-white hover:shadow-lg rounded-xl h-96"
+							/>
+						</picture>
 						<img
 							src="/images/project/triangle/2.jpeg"
 							className="object-cover object-center w-full p-4 bg-white hover:shadow-lg rounded-xl h-96"

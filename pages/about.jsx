@@ -3,7 +3,13 @@ const About = () => {
 		<>
 			<div className="flex flex-col justify-center mb-10 leading-relaxed tracking-wider text-center">
 				<div className="flex items-center justify-center w-auto mb-10 text-center h-96">
-					<img className="object-cover object-bottom w-full h-full shadow-2xl" src="/images/mpi-site.jpeg" />
+					<picture>
+						<source srcSet="/images/mpi-site.jpeg" type="image/jpeg" />
+						<img
+							className="object-cover object-bottom w-full h-full shadow-2xl"
+							src="/images/mpi-site.jpeg"
+						/>
+					</picture>
 				</div>
 				<div className="mx-auto container-none lg:container">
 					<div className="mx-5 text-xl font-light text-justify md:mx-14 lg:mx-52">
