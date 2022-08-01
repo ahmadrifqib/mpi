@@ -34,3 +34,9 @@ app.prepare().then(() => {
 		console.log(`> Ready on http://${hostname}:${port}`);
 	});
 });
+
+// "scripts": {
+// 	"dev": "node server.js",
+// 	"build": "next build",
+// 	"start": "NODE_ENV=production node server.js"
+// },
