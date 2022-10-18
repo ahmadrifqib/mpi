@@ -40,11 +40,16 @@ const Navbar = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "ml-5 lg:ml-0",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: "/images/mpi100px.png",
-                            alt: "Mixa Logo",
-                            width: 70,
-                            height: 70
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            href: "/",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/images/mpi100px.png",
+                                    alt: "Mixa Logo",
+                                    width: 70,
+                                    height: 70
+                                })
+                            })
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -244,7 +249,7 @@ const HeadComponent = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                children: "Mixa Perkasa Indonesia"
+                children: "PT Mixa Perkasa Indonesia"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                 name: "description",
@@ -418,6 +423,13 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js")
 
 /***/ }),
 
+/***/ 6220:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
 /***/ 299:
 /***/ ((module) => {
 
@@ -443,6 +455,13 @@ module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
 
 /***/ }),
 
@@ -537,7 +556,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [952,61], () => (__webpack_exec__(7051)));
+var __webpack_exports__ = __webpack_require__.X(0, [676,61], () => (__webpack_exec__(7051)));
 module.exports = __webpack_exports__;
 
 })();

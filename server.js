@@ -4,7 +4,7 @@ const next = require("next");
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = "localhost";
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
@@ -34,12 +34,3 @@ app.prepare().then(() => {
 		console.log(`> Ready on http://${hostname}:${port}`);
 	});
 });
-
-// "scripts": {
-// 	"dev": "node server.js",
-// 	"build": "next build",
-// 	"start": "NODE_ENV=production node server.js"
-// },
-
-// "eslint": "^8.13.0",
-// "eslint-config-next": "^12.1.4",

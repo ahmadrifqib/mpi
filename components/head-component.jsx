@@ -3,7 +3,7 @@ import Head from "next/head";
 const HeadComponent = () => {
 	return (
 		<Head>
-			<title>Mixa Perkasa Indonesia</title>
+			<title>PT Mixa Perkasa Indonesia</title>
 			<meta
 				name="description"
 				content="PT Mixa Perkasa Indonesia adalah perusahaan yang bergerak di bidang stuktur dan beton."

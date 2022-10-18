@@ -9,7 +9,11 @@ const Navbar = () => {
 			<div className="flex items-center justify-between py-1 mx-auto bg-orange-50/90 lg:px-10 xl:px-20">
 				<div className="ml-5 lg:ml-0">
 					{/* <img className="w-auto h-16" src="/images/mpi100px.png" /> */}
-					<Image src="/images/mpi100px.png" alt="Mixa Logo" width={70} height={70} />
+					<Link href="/">
+						<a>
+							<Image src="/images/mpi100px.png" alt="Mixa Logo" width={70} height={70} />
+						</a>
+					</Link>
 				</div>
 				<div className="hidden space-x-5 text-2xl font-semibold text-stone-500 lg:block">
 					<Link href="/">
